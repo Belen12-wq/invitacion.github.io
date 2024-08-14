@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="styles.css">
+<script src="script.js"></script>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación de Cumpleaños</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="heading">¡Te Invitamos!</h1>
+        <p class="subheading">A celebrar el cumpleaños de</p>
+        <h2 class="name">Arantza Guadalupe Álvarez Dávila</h2>
+        <p class="age">Cumple <span class="number">4</span> años</p>
+        <div class="details">
+            <p>Fecha: [Fecha del Evento]</p>
+            <p>Hora: [Hora del Evento]</p>
+            <p>Ubicación: <a href="[Enlace a Google Maps]" target="_blank" class="location">[Dirección del Evento]</a></p>
+        </div>
+        <button class="rsvp-button" onclick="toggleForm()">Confirma tu Asistencia</button>
+        <div id="rsvp-form" class="rsvp-form">
+            <p>¿Podrás asistir?</p>
+            <label><input type="radio" name="attendance" value="yes" onclick="showForm()"> Sí</label>
+            <label><input type="radio" name="attendance" value="no" onclick="hideForm()"> No</label>
+            <div id="details-form" style="display:none;">
+                <input type="text" placeholder="Tu Nombre" id="name">
+                <input type="number" placeholder="Número de personas" id="people">
+                <button onclick="submitForm()">Enviar</button>
+            </div>
+            <div id="thank-you" style="display:none;">
+                <p>¡Gracias por confirmar!</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

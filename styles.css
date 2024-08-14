@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f7;
+}
+
+.container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.heading {
+    color: #ff66b2;
+    font-size: 2.5em;
+    margin: 0;
+    font-family: 'Pacifico', cursive;
+}
+
+.subheading {
+    color: #666;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.name {
+    color: #ff66b2;
+    font-size: 1.8em;
+    font-family: 'Pacifico', cursive;
+}
+
+.age {
+    color: #333;
+    font-size: 1.4em;
+    margin: 10px 0;
+}
+
+.number {
+    font-size: 2em;
+    color: #ff3399;
+}
+
+.details {
+    margin: 20px 0;
+    font-size: 1.1em;
+    color: #666;
+}
+
+.location {
+    color: #ff3399;
+    text-decoration: none;
+}
+
+.rsvp-button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.rsvp-button:hover {
+    background-color: #ff3399;
+}
+
+.rsvp-form {
+    margin-top: 20px;
+    display: none;
+}
+
+.rsvp-form p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ff66b2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff3399;
+}
+
+#thank-you {
+    color: #ff66b2;
+    font-size: 1.2em;
+    margin-top: 20px;
+}
